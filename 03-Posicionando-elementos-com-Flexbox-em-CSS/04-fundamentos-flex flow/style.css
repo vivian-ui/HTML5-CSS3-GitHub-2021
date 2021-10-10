@@ -1,0 +1,83 @@
+/*row*/
+.flex-container{
+    display: flex;
+    border: 1px solid #3b092b;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.default{
+    flex-flow: row nowrap;
+}
+
+.wrap{
+    flex-flow: row wrap;
+}
+
+.wrap-reverse{
+    flex-flow: row wrap-reverse;
+}
+
+.row-reverse-nowrap{
+    flex-flow: row-reverse nowrap;
+}
+
+.row-reverse-wrap{
+    flex-flow: row-reverse wrap;
+}
+
+.rowwrap-reverse{
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.item{
+    background-color:blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+
+/*column*/
+.flex-container-column{
+    display: flex;
+    border: 1px solid #093b1e;
+    max-width: 500px;
+    margin-bottom: 10px;
+    height:250px;
+}
+.default-column{
+    flex-flow: column nowrap;
+}
+
+.wrap-column{
+    flex-flow: column wrap;
+}
+
+.wrap-reverse-column{
+    flex-flow: column wrap-reverse;
+}
+
+.column-reverse-nowrap{
+    flex-flow: column-reverse nowrap;
+}
+
+.column-reverse-wrap{
+    flex-flow: column-reverse wrap;
+}
+
+.columnwrap-reverse{
+    flex-flow: column-reverse wrap-reverse;
+}
+
+.item-column{
+    background-color:rgb(43, 226, 89);
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}

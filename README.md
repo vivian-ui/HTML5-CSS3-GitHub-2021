@@ -2,6 +2,7 @@
 
 
 
-- ** O prazo para finalização do bootcamp é **11/11/202**
--  principais fundamentos de React e JavaScript. 
+- Introdução a criação de websites com HTML5 e CSS3.
+- Posicionamdo elementos com Flexbox em CSS.
+- principais fundamentos de React e JavaScript. 
 
