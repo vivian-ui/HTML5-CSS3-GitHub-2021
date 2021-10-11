@@ -1,0 +1,32 @@
+/* se o flex-container tiver o justy-c0ntent o flex-grow não funcionará */
+
+.flex-container{
+    display: flex;
+    border: 2px solid black;
+    max-width: 300px;
+    margin-bottom:20px;
+}
+.item{
+    background-color: blue;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/*flex-grow vem zero como padrão*/
+.fg-0{
+    flex-grow: 0;
+}
+
+.fg-1{
+    flex-grow: 1;
+}
+
+.fg-2{
+    flex-grow: 2;
+}
+
+.fg-3{
+    flex-grow: 3;
+}
