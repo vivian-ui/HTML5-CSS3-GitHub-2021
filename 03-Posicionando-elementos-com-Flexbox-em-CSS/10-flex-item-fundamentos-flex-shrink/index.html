@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Fundamentos Flex shrink</title>
+</head>
+<body>
+    <h1>Fundamentos flex shrink</h1>
+
+    <h2>flex-shrink: 1 + flex-grow: 1</h2>
+    <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-1 fg-1">C</div>
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+    </div>
+
+    <h2>flex-shrink: 1 + flex-grow: 1 c/ quebra de linha</h2>
+    <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-1 fg-1">Csfsdfsdfd fsdfsdfs fsdfsfs </div>  <!--quando acongtece quebra de linha perde a funcionalidade do flex-grow -->
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+    </div>
+
+    <h2>flex-shrink: 0 + flex-basis: 100px</h2>
+    <div class="flex-container">
+        <div class="item s-0 fg-1">A</div>
+        <div class="item s-0 fg-1">B</div>
+        <div class="item s-0 fg-1">C</div>
+        <div class="item s-0 fg-1">D</div>
+        <div class="item s-0 fg-1">E</div>
+    </div>
+
+    <h2>flex-shrink: mix + flex-basis: 100px</h2>
+    <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-2 fg-1">Csfsdfsdfd fsdfsdfs fsdfsfs </div>  <!--quando acongtece quebra de linha perde a funcionalidade do flex-grow -->
+        <div class="item s-2 fg-1">D</div>
+        <div class="item s-3 fg-1">E</div>
+    </div>
+
+</body>
+</html>
